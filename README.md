@@ -7,8 +7,9 @@
 ---
 
 ## 👾 Sobre o projeto
-Um **bot para Discord** que monitora a tela do jogo **Lineage 2** (ou outros MMOs) e envia alertas automáticos no servidor sempre que um **Boss** estiver vivo.  
-O bot utiliza **OCR (Tesseract)** para ler a tela e detectar os nomes dos bosses em tempo real.  
+Um **bot para Discord** que monitora a tela do jogo **Lineage 2** e envia alertas automáticos no servidor sempre que um **Boss** estiver vivo.  
+O bot utiliza **OCR (Tesseract)** para ler a tela e detectar os nomes dos bosses em tempo real.
+Deverá utilizar um auto-clique do mouse para ficar carregando o status do Boss no mapa do L2.
 
 ---
 
@@ -28,6 +29,16 @@ O bot utiliza **OCR (Tesseract)** para ler a tela e detectar os nomes dos bosses
 - 🖼️ **Pillow (PIL)** → manipulação de imagens  
 - 🔎 **pytesseract** → OCR para reconhecimento de texto  
 - 🤖 **discord.py** → integração com o Discord  
+
+---
+
+##🔹 3. Instale o Tesseract OCR
+
+Baixe e instale: Tesseract OCR
+
+Copie o caminho do executável e configure no código:
+
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
 
 ---
 
