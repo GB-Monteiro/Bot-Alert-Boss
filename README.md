@@ -23,7 +23,16 @@ Deverá utilizar um auto-clique do mouse para ficar carregando o status do Boss 
 
 ---
 
-## 🛠️ Tecnologias
+## ⚙️ Configuração
+
+### 🔹 Clone o repositório
+
+<pre>git clone https://github.com/seu-usuario/seu-repo.git
+cd seu-repo</pre>
+
+---
+
+### 🛠️ Tecnologias
 - 🐍 **Python 3**
 - 📸 **PyAutoGUI** → captura da tela  
 - 🖼️ **Pillow (PIL)** → manipulação de imagens  
@@ -32,22 +41,22 @@ Deverá utilizar um auto-clique do mouse para ficar carregando o status do Boss 
 
 ---
 
-##🔹 Instale as dependências
+### 🔹 Instale as dependências
 <pre>pip install -r requirements.txt</pre>
 
 ---
 
-##🔹 Instale o Tesseract OCR
+### 🔹 Instale o Tesseract OCR
 
-Baixe e instale: Tesseract OCR
+* Baixe e instale: Tesseract OCR
 
-Copie o caminho do executável e configure no código:
+* Copie o caminho do executável e configure no código:
 
 <pre>pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'</pre>
 
 ---
 
-##🔹 Configure o Bot do Discord
+### 🔹 Configure o Bot do Discord
 
 1. Crie um bot no Discord Developer Portal
 
@@ -61,7 +70,7 @@ Copie o caminho do executável e configure no código:
 
 ---
 
-##🔹 Ajuste a região da tela
+### 🔹 Ajuste a região da tela
 
 Defina a área onde aparecem os bosses:
 
@@ -69,7 +78,7 @@ Defina a área onde aparecem os bosses:
 
 ---
 
-##▶️ Executando o Bot
+### ▶️ Executando o Bot
 
 Após tudo configurado, basta rodar:
 
@@ -77,7 +86,7 @@ Após tudo configurado, basta rodar:
 
 ---
 
-##🖥️ Exemplo de funcionamento
+### 🖥️ Exemplo de funcionamento
 
 A cada 10 segundos, o bot faz a leitura da tela.
 Se encontrar um Boss, envia para o Discord:
@@ -86,16 +95,9 @@ Se encontrar um Boss, envia para o Discord:
 
 ---
 
-##📜 Licença
+### 📜 Licença
 
 📌 Este projeto é para uso pessoal.
 Sinta-se livre para modificar e adaptar conforme suas necessidades.
 
-##✨ Desenvolvido com dedicação para ajudar no farm de bosses no Lineage 2!
-
-## ⚙️ Configuração
-
-### 🔹 1. Clone o repositório
-```bash
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+## ✨ Desenvolvido com dedicação para ajudar no farm de bosses no Lineage 2!
