@@ -37,7 +37,7 @@ Deverá utilizar um auto-clique do mouse para ficar carregando o status do Boss 
 Baixe e instale: Tesseract OCR
 
 Copie o caminho do executável e configure no código:
-<pre>```python
+<pre>python
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'</pre>
 
 ---
